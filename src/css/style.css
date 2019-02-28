@@ -170,6 +170,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 25px;
+  line-height: 1.5;
 }
 
 .hero-list__image {
@@ -206,6 +207,21 @@ img {
   }
   .hero-text {
     padding-left: 10px;
+    text-align: center;
+  }
+  .hero-list__item {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: left;
+  }
+  .hero-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
