@@ -98,6 +98,8 @@ img {
   width: 170px;
   height: 49px;
   font-size: 13px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
 }
 
 .navbar__phone {
@@ -136,7 +138,7 @@ img {
 .hero-text {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  padding-right: 140px;
+  padding-right: 18px;
 }
 
 .hero-text__title {
@@ -148,9 +150,11 @@ img {
 }
 
 .hero-text__subtitle {
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
   display: inline-block;
-  font-size: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 65px;
 }
 
 .hero-list {
@@ -187,6 +191,7 @@ img {
 
 .hero-list__text {
   min-width: 300px;
+  font-size: 14px;
 }
 
 @media (max-width: 1200px) {
